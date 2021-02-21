@@ -1,0 +1,52 @@
+
+<html>
+  <head>
+    <title>Sorting Algorithms</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+
+  <body>
+    <div id='navBar'>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a id="refreshButton" class="navbar-brand" href="#">Sorting Algorithms</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Algorithms
+                <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                <li id="startButtonMergeSort"><a href="#">Merge Sort</a></li>
+                <li id="startButtonQuickSort"><a href="#">Quick Sort</a></li>
+                <li id="startButtonHeapSort"><a href="#">Heap Sort</a></li>
+                <li id="startButtonBubbleSort"><a href="#">Bubble Sort</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a id="adjustArraySize" class="dropdown-toggle" data-toggle="dropdown" href="#">Array Size: Medium
+              <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li id='adjustSmall'><a href="#">Small</a></li>
+                <li id='adjustMedium'><a href="#">Medium</a></li>
+                <li id='adjustLarge'><a href="#">Large</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a id="adjustSpeed" class="dropdown-toggle" data-toggle="dropdown" href="#">Speed: Average
+              <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li id='adjustSlow'><a href="#">Slow</a></li>
+                  <li id='adjustAverage'><a href="#">Average</a></li>
+                <li id='adjustFast'><a href="#">Fast</a></li>
+              </ul>
+            </li>
+            <li id='startButtonStart'><button id="actualStartButton" class="btn btn-default navbar-btn" type="button">Sort</button></li>
+          </ul>
+        </div>
+      </nav>
+
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</html>
